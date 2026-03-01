@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Cyberpunk Contact Form</title>
+  <script>
+    async function submitForm(e){e.preventDefault();
+      const f=document.getElementById('contactForm');
+      const data={Name:f.Name.value,Surname:f.Surname.value,Email:f.Email.value};
+      const r=await fetch('/api/contacts',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+      const msg=document.getElementById('msg');
+      if(r.ok){msg.textContent='Thank you!';msg.style.color='lightgreen';f.reset();}else{msg.textContent='Error';msg.style.color='red';}}
+  </script>
+</head>
+<body>
+  <h1>Contact Form</h1>
+  <form id='contactForm' onsubmit='submitForm(event)'>
+    <input name='Name' required placeholder='Name'/>
+    <input name='Surname' required placeholder='Surname'/>
+    <input name='Email' required type='email' placeholder='Email'/>
+    <button type='submit'>Submit</button>
+  </form>
+  <div id='msg'></div>
+</body>
+</html>
