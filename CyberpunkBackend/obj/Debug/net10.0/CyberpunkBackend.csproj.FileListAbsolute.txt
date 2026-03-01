@@ -1,0 +1,8 @@
+/home/aiexperiments/.openclaw/workspace/CyberpunkBackend/obj/Debug/net10.0/CyberpunkBackend.csproj.AssemblyReference.cache
+/home/aiexperiments/.openclaw/workspace/CyberpunkBackend/obj/Debug/net10.0/rpswa.dswa.cache.json
+/home/aiexperiments/.openclaw/workspace/CyberpunkBackend/obj/Debug/net10.0/MvcTestingAppManifest.json
+/home/aiexperiments/.openclaw/workspace/CyberpunkBackend/obj/Debug/net10.0/CyberpunkBackend.GeneratedMSBuildEditorConfig.editorconfig
+/home/aiexperiments/.openclaw/workspace/CyberpunkBackend/obj/Debug/net10.0/CyberpunkBackend.AssemblyInfoInputs.cache
+/home/aiexperiments/.openclaw/workspace/CyberpunkBackend/obj/Debug/net10.0/CyberpunkBackend.AssemblyInfo.cs
+/home/aiexperiments/.openclaw/workspace/CyberpunkBackend/obj/Debug/net10.0/CyberpunkBackend.csproj.CoreCompileInputs.cache
+/home/aiexperiments/.openclaw/workspace/CyberpunkBackend/obj/Debug/net10.0/CyberpunkBackend.MvcApplicationPartsAssemblyInfo.cache

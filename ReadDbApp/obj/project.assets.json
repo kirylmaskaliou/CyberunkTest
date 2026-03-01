@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "System.Data.SQLite/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Data.SQLite/2.0.2": {
+      "sha512": "yAwxkraZf1PazyLg1sqMAlh4KEtaa2L8zieLicd9oWBybrb3SoPph+WVIyUTFWwtTVhNX/jNsDew6tbB8bw2xQ==",
+      "type": "package",
+      "path": "system.data.sqlite/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net471/System.Data.SQLite.dll",
+        "lib/netstandard2.0/System.Data.SQLite.dll",
+        "lib/netstandard2.1/System.Data.SQLite.dll",
+        "system.data.sqlite.2.0.2.nupkg.sha512",
+        "system.data.sqlite.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "System.Data.SQLite >= 2.0.2"
+    ]
+  },
+  "packageFolders": {
+    "/home/aiexperiments/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/aiexperiments/.openclaw/workspace/ReadDbApp/ReadDbApp.csproj",
+      "projectName": "ReadDbApp",
+      "projectPath": "/home/aiexperiments/.openclaw/workspace/ReadDbApp/ReadDbApp.csproj",
+      "packagesPath": "/home/aiexperiments/.nuget/packages/",
+      "outputPath": "/home/aiexperiments/.openclaw/workspace/ReadDbApp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/aiexperiments/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/usr/lib/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "System.Data.SQLite": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[8.0.24, 8.0.24]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

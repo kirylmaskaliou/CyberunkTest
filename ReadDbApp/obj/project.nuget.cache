@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MqBTJ1OagGw=",
+  "success": true,
+  "projectFilePath": "/home/aiexperiments/.openclaw/workspace/ReadDbApp/ReadDbApp.csproj",
+  "expectedPackageFiles": [
+    "/home/aiexperiments/.nuget/packages/system.data.sqlite/2.0.2/system.data.sqlite.2.0.2.nupkg.sha512",
+    "/home/aiexperiments/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.24/microsoft.netcore.app.host.linux-x64.8.0.24.nupkg.sha512"
+  ],
+  "logs": []
+}
