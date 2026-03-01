@@ -1,0 +1,45 @@
+# .gitignore for .NET projects
+
+# Build results
+[Dd]ebug/**
+[Dd]ebugPublic/**
+[Rr]elease/**
+[Rr]eleases/**
+[Oo]bj/**
+[Bb]in/**
+
+# Visual Studio
+.vs/**
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# ASP.NET Scaffolding
+App_Data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+*.nupkg
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Other
+*.log
+*.tmp
+
+# Dotnet watch
+watch
